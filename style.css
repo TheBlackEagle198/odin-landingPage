@@ -98,3 +98,27 @@
     border: 4px solid #3882f6;
     border-radius: 13px;
 }
+
+.quote-section {
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 130px 0 100px 0;
+    color: #1f2937;
+}
+
+.quote-container {
+    width: 40%;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.autor {
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
+}
