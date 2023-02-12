@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 
@@ -13,7 +14,6 @@
     background-color: #1f2937;
     color: white;
     padding: 0 280px;
-    font-family: sans-serif;
     padding-bottom: 135px;
 }
 
@@ -71,4 +71,30 @@
     border-radius: 10px;
     font-size: 23px;
     font-weight: bold;
+}
+
+.image-container {
+    padding-bottom: 100px;
+}
+
+.image-container h1 {
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cards {
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    width: 152px;
+    text-align: center;
+}
+
+.card-image {
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 13px;
 }
